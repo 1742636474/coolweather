@@ -1,9 +1,11 @@
 package com.example.administrator.coolweather.db;
 
+import org.litepal.crud.DataSupport;
+
 /**
  * Created by Administrator on 2018\6\24 0024.
  */
-public class County {
+public class County extends DataSupport{
 
     private int id;
     private  String countyName;
