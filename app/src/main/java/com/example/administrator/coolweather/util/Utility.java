@@ -84,7 +84,7 @@ public class Utility {
                      County county=new County();
                     county.setCountyName(cont.getString("name"));
                     county.setWeatherId(cont.getString("weather_id"));
-                    county.setId(cityId);
+                    county.setCityId(cityId);
                     county.save();
                 }
 
